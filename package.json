@@ -1,0 +1,16 @@
+{
+  "name": "adb-gui",
+  "version": "1.0.0",
+  "description": "ADB command runner with GUI",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "dependencies": {
+    "ws": "^8.20.1"
+  },
+  "devDependencies": {
+    "electron": "^42.2.0"
+  }
+}
